@@ -20,6 +20,8 @@ description: >-
   - [无限变焦对数坐标与视锥变换数学推导](./references/infinite_zoom_math.md)
   - [Risograph 经典油墨调色盘与网点角度指南](./references/risograph_palette_guide.md)
 - **开箱即用模板 (Templates)**：
+  - [先锋抽象与连续流变数学引擎模板](./templates/abstract_stream_template.js) (`AbstractStreamRenderer`)
+  - [纯代码程序化东方图腾生成模板](./templates/procedural_art_template.js) (`ProceduralArt`)
   - [通用无限变焦引擎模板](./templates/engine_template.js) (`InfiniteZoomEngine`)
   - [Risograph 滤镜与半色调着色器模板](./templates/riso_shader_template.js) (`RisoRenderer`)
 - **自动化离线压制 (Scripts)**：

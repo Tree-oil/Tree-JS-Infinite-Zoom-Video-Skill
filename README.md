@@ -119,6 +119,18 @@ function getLayerTransform(globalProgress, layerIndex) {
   <img src="assets/hero.jpg" alt="Gemini 3.8 Flash Infinite Zoom Contact Sheet" width="90%" />
 </p>
 
+### 案例 3：《庄周梦蝶》东方气韵先锋抽象与绝对连续流变动画
+100% 纯原生 JavaScript Canvas 数学生成（零外置图片资产），全片 28 秒一气呵成、无缝连续流转：
+1. **第 1 章：气韵玄关 · 混沌一画**（虚空墨点呼吸、同心共振涟漪、3D 草书禅意圆环）
+2. **第 2 章：拓扑化蝶 · 虚实互生**（洛伦兹双叶吸引子、38 圈矿物等高线振颤、对数涡旋凹陷）
+3. **第 3 章：水击三千 · 鲲鹏流场**（北冥 Navier-Stokes 矢量流场、昂首巨鲲之骨架、九万里万丈金羽）
+4. **第 4 章：齐物共振 · 李萨如双星**（庄周与胡蝶双星引力轨道 $\omega_x:\omega_y=3:4$、八卦谐振旋律与时空弯曲）
+5. **第 5 章：物化归一 · 金石方寸**（引力奇点坍缩、朱砂残损汉印篆刻“庄周梦蝶·物化归一”、金丝破茧飞出）
+
+<p align="center">
+  <img src="assets/zhuangzi_abstract_contact_sheet.png" alt="Zhuangzi Abstract Continuous Odyssey 56-Frame Contact Sheet" width="90%" />
+</p>
+
 ---
 
 ## 📂 Repository Structure (仓库目录结构)
@@ -131,14 +143,18 @@ Tree-JS-Infinite-Zoom-Video-Skill/
 ├── SKILL.md                               # Skill 入口与工业 SOP 规范
 ├── assets/                                # 预览图与效果展示
 │   ├── hero.jpg                           # Gemini 3.8 Flash 实战联排图
-│   └── opus5_reproduced_sheet.jpg         # Claude Opus 5 复刻联排图
+│   ├── opus5_reproduced_sheet.jpg         # Claude Opus 5 复刻联排图
+│   └── zhuangzi_abstract_contact_sheet.png# 《庄周梦蝶》先锋抽象流变 56 帧联排图
 └── skills/
     └── js-infinite-zoom-video/
         ├── SKILL.md                       # 标准 5 步工业级 SOP
         ├── references/
         │   ├── infinite_zoom_math.md      # 对数变焦数学推导与坐标变换
-        │   └── risograph_palette_guide.md # Risograph 丝网印刷色彩与网点规范
+        │   ├── risograph_palette_guide.md # Risograph 丝网印刷色彩与网点规范
+        │   └── surreal_animation_grammar.md# 七大超现实与先锋流变动画语法
         ├── templates/
+        │   ├── abstract_stream_template.js# 先锋抽象与连续流变数学引擎模板
+        │   ├── procedural_art_template.js # 纯代码程序化东方图腾生成模板
         │   ├── engine_template.js         # InfiniteZoomEngine 开箱即用引擎类
         │   └── riso_shader_template.js    # RisoRenderer WebGL/Canvas 版画滤镜
         └── scripts/

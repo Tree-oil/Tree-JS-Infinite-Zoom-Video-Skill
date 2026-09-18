@@ -62,6 +62,29 @@
   }
   ```
 
+### 手法七：东方一画与先锋连续流变论 (The Eastern One-Stroke & Continuous Topological Stream)
+- **概念**：
+  - 拒绝一切断裂生硬的分幕与跳切，将全片视为**一条永不中断的宇宙意识流（Continuous Stream of Consciousness）**。
+  - 源于东方石涛“一画论”与现代抽象艺术（康定斯基、惠特尼、包豪斯）：**点生线、线生面、面生虚空、虚空化蝶、双翼激荡为流场波涛、波涛收束为双星共振、共振坍缩为方寸金石古印**。
+- **数学与几何实现精要**：
+  1. **全局平滑阶跃混合 (Smoothstep Blending)**：
+     ```javascript
+     function smoothstep(min, max, value) {
+       const x = Math.max(0, Math.min(1, (value - min) / (max - min)));
+       return x * x * (3 - 2 * x);
+     }
+     ```
+  2. **气韵一画三维展开 (3D Parametric Enso Ribbon)**：
+     墨点吸纳呼吸，沿极坐标与正弦调制展开三维草书圆环，笔触具有飞白干笔与泥金微粒。
+  3. **洛伦兹拓扑羽翼 (Topological Lorenz Attractor Wings)**：
+     将圆环直接拓扑开裂为双叶连续吸引子羽翼，通过极坐标公式 $r(\theta) = e^{\cos\theta} - 2\cos(4\theta) + \sin^5(\theta/12)$ 叠加 30~50 圈振颤矿物等高线。
+  4. **流体力学矢量场 (Navier-Stokes Curl Noise Streamlines)**：
+     数十条流线受伪旋度矢量场驱动，从深海玄墨与石青涌动昂首化为九万里金色羽流。
+  5. **李萨如双星共振 (Lissajous Duality Resonance, 3:4 Harmonic)**：
+     哲学本体（如庄周与胡蝶）化作两颗高能粒子，沿李萨如参数轨迹 $x = A\sin(3\omega t), y = B\cos(4\omega t)$ 高速缠绕，编织阴阳几何曼陀罗。
+  6. **引力奇点坍缩与残缺古印 (Gravitational Singularity Collapse & Living Han Seal)**：
+     向心坍缩后爆发出朱砂矩形边框，伴随弹簧阻尼拍击，化为具有金石残边与篆刻骨架的汉印，最终金丝破茧飞出，虚实相生。
+
 ---
 
 ## 2. 节奏韵律与抽帧质感 (Frame-Rate Stylization)
@@ -72,3 +95,4 @@
   const steppedTime = Math.floor(t * 12) / 12;
   ```
 - 这种高精背景 + 低帧偶动的结合，能够瞬间赋予画面极高辨识度与先锋艺术质感。
+
